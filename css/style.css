@@ -7,11 +7,23 @@
   box-sizing: border-box;
   padding: 3px 23px;
   backdrop-filter: blur(7.5px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header__logo {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+}
+
+.header__search {
+  max-width: 446px;
+  height: 40px;
+}
+
+.header__avatar {
+  max-width: 60px;
 }
 
 .content {
@@ -44,13 +56,17 @@
 }
 
 .profile__main-avatar {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.avatar {
   border-radius: 50%;
   border: 2px solid #fff;
   filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
-  width: 100%;
   object-fit: cover;
-  margin-bottom: 30px;
 }
+
 .profile__main-name {
   position: relative;
   font-weight: 300;
@@ -207,16 +223,23 @@
   stroke: #fff;
 }
 
+.main__aside-nav-button--horse:hover svg path {
+  fill: #fff;
+}
+
 .main__aside-search {
+  max-width: 340px;
+  margin: 0 0 30px 0;
+}
+
+.search {
   border: none;
   background-color: #fff;
   border-radius: 20px;
   padding: 9px 25px;
   box-shadow: inset 0px 4.00588px 4.00588px rgba(0, 0, 0, 0.25);
   width: 100%;
-  max-width: 340px;
   box-sizing: border-box;
-  margin: 0 0 30px 0;
 }
 
 .main__aside-search::placeholder {
@@ -280,11 +303,6 @@
   border-radius: 13px;
 }
 
-.main__feed {
-  backdrop-filter: blur(7.81395px);
-  padding: 75px 0 0 0;
-}
-
 .main__articles {
   display: flex;
   flex-direction: column;
@@ -329,4 +347,96 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
+}
+
+/* ===================================== */
+
+.main__feed {
+  backdrop-filter: blur(7.81395px);
+  margin: 75px 0 0 0;
+  box-shadow: 0px 4.16744px 20.8372px 10.4186px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.test {
+}
+.test-img {
+  width: 100%;
+}
+.text-text {
+  padding: 0 30px;
+}
+
+.h-test {
+  text-align: center;
+}
+
+/* ======================= */
+
+.message {
+  background-color: #eeeeee;
+  display: flex;
+  padding: 22px 47px;
+  gap: 30px;
+}
+
+.message__input {
+  position: relative;
+}
+
+.message__button {
+  align-self: center;
+  width: 35px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.message__button--download {
+  background: url("../img/message-icons/deploy.svg") center center no-repeat;
+}
+
+.message__button--send {
+  background: url("../img/message-icons/send.svg") center center no-repeat;
+}
+
+.message__button--photo {
+  background: url("../img/message-icons/photo.svg") center center no-repeat;
+  position: absolute;
+  right: 155px;
+}
+
+.message__button--smile {
+  background: url("../img/message-icons/smile.svg") center center no-repeat;
+  position: absolute;
+  right: 115px;
+}
+
+.hide-block {
+  background: rgba(138, 138, 138, 0.3);
+  padding: 16px;
+  text-align: center;
+}
+
+.hide-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hide-button::after {
+  content: url("../img/message-icons/hide.svg");
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+
+.hide-button::before {
+  content: url("../img/message-icons/hide.svg");
+  position: relative;
+  top: 2px;
+  right: 10px;
 }
