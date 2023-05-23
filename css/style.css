@@ -654,6 +654,15 @@
   top: 25px;
   left: 35px;
   height: 30px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1399px) {
+  .main__aside-handle {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .main__aside-wrapper-close {
