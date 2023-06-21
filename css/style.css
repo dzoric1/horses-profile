@@ -36,6 +36,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 25% 50% 25%;
+  padding: 0 0 75px 0;
 }
 
 @media screen and (max-width: 1399px) {
@@ -70,13 +71,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 .profile__main-avatar {
   margin-bottom: 30px;
   width: 100%;
-  max-width: 300px;
+  max-width: 240px;
   margin: 0 auto;
 }
 
@@ -101,7 +102,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 30px 20px 105px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 1399px) {
@@ -125,7 +126,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(7.5px);
 }
 
@@ -155,11 +156,11 @@
 
 .profile__data-interaction-btn {
   position: relative;
-  width: 159px;
-  height: 60px;
+  padding: 15px 10px;
+  min-width: 125px;
   border: none;
   color: #424242;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
@@ -177,6 +178,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 5px;
   text-align: center;
@@ -185,7 +187,7 @@
 .profile__data-interaction-count p {
   margin: 0;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -196,18 +198,20 @@
 }
 
 .profile__blocks {
-  padding: 100px 50px 100px 50px;
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
 .profile__blocks-block {
   width: 100%;
+  max-width: 300px;
   padding: 10px;
-  height: 90px;
+  height: 70px;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
@@ -458,16 +462,14 @@
 
 .main__feed {
   backdrop-filter: blur(7.81395px);
-  margin: 75px 0 0 0;
-  box-shadow: 0px 4.16744px 20.8372px 10.4186px rgba(0, 0, 0, 0.25);
-  background-color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
 }
 
 /* ======================= */
 
 .message {
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
   display: flex;
   padding: 22px 47px;
   gap: 30px;
@@ -533,7 +535,7 @@
   right: 10px;
 }
 
-.test__close {
+/* .test__close {
   position: absolute;
   top: 0px;
   right: 30px;
@@ -545,7 +547,7 @@
   background-repeat: no-repeat;
   cursor: pointer;
   border: none;
-}
+} */
 
 /* ======================================================== */
 
@@ -639,6 +641,7 @@
   font-family: "Inter";
   font-size: 18px;
   line-height: 22px;
+  margin: 4px 0;
 }
 .test__comment-date {
   font-family: "Inter";
@@ -681,4 +684,93 @@
   .main__aside-wrapper-close {
     display: block;
   }
+}
+
+.feed__item {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 15px 35px 15px;
+  backdrop-filter: blur(7.5px);
+  margin-bottom: 10px;
+}
+.feed__item-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0 0 5px 0;
+}
+.feed__item-avatar {
+  max-width: 75px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.feed__item-name {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.feed__item-image {
+  width: 100%;
+  object-fit: cover;
+  max-height: 350px;
+  margin: 0 0 20px 0;
+}
+
+.feed__item-comments {
+  padding: 15px 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.feed__item-comment {
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  position: relative;
+  padding: 10px 25px 20px 70px;
+  width: 100%;
+  max-width: 400px;
+}
+.feed__item-comment-avatar {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  max-width: 75px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.feed__item-comment-sendOn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 15px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  cursor: pointer;
+  background: url("../img/send-on.svg") center center no-repeat;
+  padding: 0;
+}
+.feed__item-comment-date {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #858585;
+}
+.feed__item-comment-name {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 15px 0;
+}
+.feed__item-comment-text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
 }
