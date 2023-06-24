@@ -235,56 +235,6 @@
           </div>
         </div>
         <div class="main__feed feed">
-
-          <!-- <div class="test">
-            <button class="test__close" type="button" aria-label="Закрыть попап"></button>
-            <h3 class="h-test">Статьи</h3>
-            <div class="test__flex">
-              <div class="test__flex-block">
-                <p class="test__flex-text">Человек и конь как построить взаимоотношения</p>
-              </div>
-              <div class="test__flex-block">
-                <p class="test__flex-text">Человек и конь как построить взаимоотношения</p>
-              </div>
-              <div class="test__flex-block">
-                <p class="test__flex-text">Человек и конь как построить взаимоотношения</p>
-              </div>
-            </div>
-            <div class="test__flex-block test__flex-block--big">
-              <p class="test__flex-text test__flex-text--big">Человек и конь как построить взаимоотношения</p>
-            </div>
-            <p class="test__text">Являясь всего лишь частью общей картины, ключевые особенности структуры проекта
-              описаны максимально подробно. Являясь всего лишь частью общей картины, интерактивные прототипы,
-              превозмогая сложившуюся непростую экономическую ситуацию, объективно рассмотрены соответствующими
-              инстанциями. Наше дело не так однозначно, как может показаться: начало повседневной работы по формированию
-              позиции способствует повышению качества первоочередных требований. Сложно сказать, почему сторонники
-              тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть преданы
-              социально-демократической.</p>
-            <div class="test__flex-block test__flex-block--big">
-            </div>
-            <p class="test__text">Идейные соображения высшего порядка, а также постоянный количественный рост и сфера
-              нашей активности предопределяет высокую востребованность соответствующих условий активизации. Равным
-              образом, перспективное планирование предопределяет высокую востребованность кластеризации усилий.
-              Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого
-              факта: глубокий уровень погружения однозначно фиксирует необходимость направлений прогрессивного
-              развития. Внезапно, ключевые особенности структуры проекта ограничены исключительно образом мышления!
-              А также сторонники тоталитаризма в науке призваны к ответу. Сложно сказать, почему сторонники
-              тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть преданы
-              социально-демократической анафеме. В своём стремлении повысить качество жизни, они забывают, что
-              существующая теория выявляет срочную потребность глубокомысленных рассуждений. А также сторонники
-              тоталитаризма в науке призваны к ответу.
-              Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности
-              предопределяет высокую востребованность соответствующих условий активизации. Равным образом,
-              перспективное планирование предопределяет высокую востребованность кластеризации усилий. Высокий уровень
-              вовлечения представителей целевой аудитории является четким доказательством простого факта: глубокий
-              уровень погружения однозначно фиксирует необходимость направлений прогрессивного развития. Внезапно,
-              ключевые особенности структуры проекта ограничены исключительно образом мышления!
-              А также сторонники тоталитаризма в науке призваны к ответу. Сложно сказать, почему сторонники
-              тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть преданы
-              социально-демократической анафеме. В своём стремлении повысить качество жизни, они забывают, что
-              существующая теория выявляет срочную потребность глубокомысленных рассуждений. А также сторонники
-              тоталитаризма в науке призваны к ответу.</p>
-          </div> -->
           <div class="feed__item">
             <div class="feed__item-header">
               <img class="feed__item-avatar" src="./img/avatar.svg" alt="аватар">
@@ -337,8 +287,6 @@
               </div>
             </div>
           </div>
-
-
           <form class="message" name="message">
             <button class="message__button message__button--download" type="button"></button>
             <input class="message__input search" type="text" placeholder="Написать сообщение">
@@ -348,6 +296,363 @@
           </form>
           <div class="hide-block">
             <button class="hide-button" type="button">Свернуть</button>
+          </div>
+          <div class="articles-table-page">
+            <h2 class="article-title">Статьи</h2>
+            <button class="articles-table-add-button" type="button"></button>
+            <table class="articles-table">
+              <thead>
+                <tr>
+                  <th>№</th>
+                  <th>Дата выхода</th>
+                  <th>Автор</th>
+                  <th>Ключевые слова</th>
+                  <th>Анотация</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>№</td>
+                  <td>Дата выхода</td>
+                  <td>Автор</td>
+                  <td>Ключевые слова</td>
+                  <td>Анотация</td>
+                </tr>
+                <tr>
+                  <td>№</td>
+                  <td>Дата выхода</td>
+                  <td>Автор</td>
+                  <td>Ключевые слова</td>
+                  <td>Анотация</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="article-page">
+            <h2 class="article-title">Статьи</h2>
+            <button class="article-page__back-button" type="button"></button>
+            <div class="article-page__cover">
+              <h2 class="article-page__cover-title">Человек и конь как построить взаимоотношения</h2>
+            </div>
+            <p class="article-page-text">Являясь всего лишь частью общей картины, ключевые особенности структуры проекта
+              описаны максимально подробно. Являясь всего лишь частью общей картины, интерактивные прототипы,
+              превозмогая сложившуюся непростую экономическую ситуацию, объективно рассмотрены соответствующими
+              инстанциями. Наше дело не так однозначно, как может показаться: начало повседневной работы по формированию
+              позиции способствует повышению качества первоочередных требований. Сложно сказать, почему сторонники
+              тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть преданы
+              социально-демократической.
+            </p>
+            <img class="article-page__image" src="./img/avatar.svg" alt="изображение в статье">
+            <p class="article-page-text">Являясь всего лишь частью общей картины, ключевые особенности структуры проекта
+              описаны максимально подробно. Являясь всего лишь частью общей картины, интерактивные прототипы,
+              превозмогая сложившуюся непростую экономическую ситуацию, объективно рассмотрены соответствующими
+              инстанциями. Наше дело не так однозначно, как может показаться: начало повседневной работы по формированию
+              позиции способствует повышению качества первоочередных требований. Сложно сказать, почему сторонники
+              тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть преданы
+              социально-демократической.
+              Являясь всего лишь частью общей картины, ключевые особенности структуры проекта
+              описаны максимально подробно. Являясь всего лишь частью общей картины, интерактивные прототипы,
+              превозмогая сложившуюся непростую экономическую ситуацию, объективно рассмотрены соответствующими
+              инстанциями. Наше дело не так однозначно, как может показаться: начало повседневной работы по формированию
+              позиции способствует повышению качества первоочередных требований. Сложно сказать, почему сторонники
+              тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть преданы
+              социально-демократической.
+            </p>
+            <div class="test__buttons">
+              <button class="test__button test__button--like" type="button"></button>
+              <button class="test__button test__button--message" type="button"></button>
+            </div>
+            <p class="test__count-text">Нравиться:<span class="test__count">10</span></p>
+            <div class="test__comment-wrapper">
+              <p class="test__comment-text">В частности, высокотехнологичная концепция общественного уклада говорит о
+                возможностях новых предложений.</p>
+              <p class="test__comment-date">01.02.2023</p>
+            </div>
+            <div class="feed__item-comments">
+              <div class="feed__item-comment feed__item-comment--article">
+                <img class="feed__item-comment-avatar" src="./img/avatar.svg" alt="аватар">
+                <button class="feed__item-comment-sendOn"></button>
+                <p class="feed__item-comment-date">12:30</p>
+                <p class="feed__item-comment-name">Джонни Сильверхенд</p>
+                <p class="feed__item-comment-text">В частности, высокотехнологичная концепция общественного </p>
+              </div>
+            </div>
+          </div>
+          <form class="message" name="message">
+            <button class="message__button message__button--download" type="button"></button>
+            <input class="message__input search" type="text" placeholder="Написать сообщение">
+            <button class="message__button message__button--photo" type="button"></button>
+            <button class="message__button message__button--smile" type="button"></button>
+            <button class="message__button message__button--send" type="submit"></button>
+          </form>
+          <div class="horses-page">
+            <h2 class="article-title">Кони</h2>
+            <button class="articles-table-add-button" type="button"></button>
+            <ul class="horses-page__grid">
+              <li class="horses-page__grid-item">
+                <img class="horses-page__grid-item-image" src="./img/horse2.png" alt="изображение коня">
+                <h3 class="horses-page__grid-item-name">Абазг</h3>
+                <p class="horses-page__grid-item-text">
+                  Год рождения: <span>2017</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Пол: <span>Жеребец</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Порода: <span>Чистокровная английская</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Цена продажи: <span>100500руб.</span>
+                </p>
+              </li>
+              <li class="horses-page__grid-item">
+                <img class="horses-page__grid-item-image" src="./img/horse.jpg" alt="изображение коня">
+                <h3 class="horses-page__grid-item-name">Абазг</h3>
+                <p class="horses-page__grid-item-text">
+                  Год рождения: <span>2017</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Пол: <span>Жеребец</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Порода: <span>Чистокровная английская</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Цена продажи: <span>100500руб.</span>
+                </p>
+              </li>
+              <li class="horses-page__grid-item">
+                <img class="horses-page__grid-item-image" src="./img/horse2.png" alt="изображение коня">
+                <h3 class="horses-page__grid-item-name">Абазг</h3>
+                <p class="horses-page__grid-item-text">
+                  Год рождения: <span>2017</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Пол: <span>Жеребец</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Порода: <span>Чистокровная английская</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Цена продажи: <span>100500руб.</span>
+                </p>
+              </li>
+              <li class="horses-page__grid-item">
+                <img class="horses-page__grid-item-image" src="./img/horse.jpg" alt="изображение коня">
+                <h3 class="horses-page__grid-item-name">Абазг</h3>
+                <p class="horses-page__grid-item-text">
+                  Год рождения: <span>2017</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Пол: <span>Жеребец</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Порода: <span>Чистокровная английская</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Цена продажи: <span>100500руб.</span>
+                </p>
+              </li>
+              <li class="horses-page__grid-item">
+                <img class="horses-page__grid-item-image" src="./img/horse2.png" alt="изображение коня">
+                <h3 class="horses-page__grid-item-name">Абазг</h3>
+                <p class="horses-page__grid-item-text">
+                  Год рождения: <span>2017</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Пол: <span>Жеребец</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Порода: <span>Чистокровная английская</span>
+                </p>
+                <p class="horses-page__grid-item-text">
+                  Цена продажи: <span>100500руб.</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="horse-page">
+            <h2 class="article-title">Страница коня</h2>
+            <button class="article-page__back-button" type="button"></button>
+            <button class="horse-page__edit-button" type="button"></button>
+            <div class="horse-page__data">
+              <button class="horse-page__data-button">Написать владельцу</button>
+              <img class="horse-page__data-img" src="./img/horse2.png" alt="Фото коня">
+              <div class="horse-page__data-text">
+                <h3 class="horse-page__data-text-item horse-page__data-text-item--name">Абазг (Abazg)</h3>
+                <p class="horse-page__data-text-item">Кличка: Абазг (Abazg)</p>
+                <p class="horse-page__data-text-item">Год рождения: 2017</p>
+                <p class="horse-page__data-text-item">Порода: Чистокровная английская</p>
+                <p class="horse-page__data-text-item">Масть: Темно-гнедая</p>
+                <p class="horse-page__data-text-item">Пол: Жеребец</p>
+                <p class="horse-page__data-text-item">Отец: Кэт Квеcт</p>
+                <p class="horse-page__data-text-item">Мать: Эcтетикa</p>
+                <p class="horse-page__data-text-item">Владелец: Aшуба A.H.</p>
+                <p class="horse-page__data-text-item">Тренер: Деpкимбаев М.М.</p>
+                <p class="horse-page__data-text-item">Коннозаводчик: Алан KФX</p>
+                <p class="horse-page__data-text-item">Страна: Россия</p>
+                <p class="horse-page__data-text-item">Цена продажи: 100500руб.</p>
+                <p class="horse-page__data-text-item">Уникальный ID: 1546252662</p>
+              </div>
+            </div>
+            <div class="horse-page__description">
+              <h3 class="horse-page__description-title">Описание</h3>
+              <p class="horse-page__description-text">Очередных мероприятий с учётом комплекса новых предложений.
+                Ясность нашей позиции очевидна: повышение уровня гражданского сознания, а также свежий взгляд на
+                привычные вещи — безусловно открывает новые горизонты для новых предложений.
+                Картельные сговоры не допускают ситуации, при которой предприниматели в сети интернет являются только
+                методом политического участия и преданы социально-демократической анафеме. Однозначно, стремящиеся
+                вытеснить традиционное производство, нанотехнологии объединены в целые кластеры себе подобных.
+                Картельные сговоры не допускают ситуации, при которой предприниматели в сети интернет являются только
+                методом политического участия и преданы социально-демократической анафеме. Однозначно, стремящиеся
+                вытеснить традиционное производство, нанотехнологии объединены в целые кластеры себе подобных. Ясность
+                нашей позиции очевидна: понеочередных мероприятий с учётом комплекса новых предложений.
+                Ясность нашей позиции очевидна: повышение уровня гражданского сознания, а также свежий взгляд на
+                привычные вещи — безусловно открывает новые горизонты для новых предложений.
+              </p>
+            </div>
+            <div class="horse-page__media">
+              <h3 class="horse-page__media-title">Медиа</h3>
+              <ul class="horse-page__media-grid">
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+                <li class="horse-page__media-grid-item">
+                  <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+                </li>
+              </ul>
+            </div>
+            <div class="horse-page__career">
+              <h3 class="horse-page__career-title">Карьера</h3>
+              <table class="horse-page__career-table">
+                <thead>
+                  <tr>
+                    <th>Организатор</th>
+                    <th>Дата</th>
+                    <th>Название скачки</th>
+                    <th>Категория</th>
+                    <th>Дистанция</th>
+                    <th>Жокей</th>
+                    <th>Место</th>
+                    <th>Выигрыш</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Организатор</td>
+                    <td>Дата</td>
+                    <td>Название скачки</td>
+                    <td>Категория</td>
+                    <td>Дистанция</td>
+                    <td>Жокей</td>
+                    <td>Место</td>
+                    <td>Выигрыш</td>
+                  </tr>
+                  <tr>
+                    <td>Организатор</td>
+                    <td>Дата</td>
+                    <td>Название скачки</td>
+                    <td>Категория</td>
+                    <td>Дистанция</td>
+                    <td>Жокей</td>
+                    <td>Место</td>
+                    <td>Выигрыш</td>
+                  </tr>
+                  <tr>
+                    <td>Организатор</td>
+                    <td>Дата</td>
+                    <td>Название скачки</td>
+                    <td>Категория</td>
+                    <td>Дистанция</td>
+                    <td>Жокей</td>
+                    <td>Место</td>
+                    <td>Выигрыш</td>
+                  </tr>
+                  <tr>
+                    <td>Организатор</td>
+                    <td>Дата</td>
+                    <td>Название скачки</td>
+                    <td>Категория</td>
+                    <td>Дистанция</td>
+                    <td>Жокей</td>
+                    <td>Место</td>
+                    <td>Выигрыш</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="photo-gallery">
+            <h2 class="article-title">Фото</h2>
+            <button class="articles-table-add-button" type="button"></button>
+            <ul class="horse-page__media-grid">
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+              <li class="horse-page__media-grid-item">
+                <img class="horse-page__media-grid-image" src="./img/background.jpg" alt="фото в медиа">
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -386,6 +691,64 @@
       </section>
     </main>
   </div>
+
+  <div class="popup-image">
+    <div class="popup-image__container-wrapper">
+      <button class="popup-image__close" type="button" aria-label="Закрыть модальное окно"></button>
+      <div class="popup-image__container">
+        <div class="popup-image__image-wrapper">
+          <img class="popup-image__image" src="./img/background.jpg" alt="изображение попапа">
+        </div>
+        <div class="popup-image__comments-block">
+          <div class="popup-image__comments-header">
+            <img class="popup-image__comments-header-image" src="./img/avatar.svg" alt="аватар пользователя">
+            <div class="popup-image__comments-header-text">
+              <h3 class="popup-image__comments-header-name">Джонни Сильверхенд</h3>
+              <p class="popup-image__comments-header-date">12 мая в 12:30</p>
+            </div>
+          </div>
+          <div class="popup-image__comments-buttons">
+            <button class="popup-image__comments-like"></button>
+            <p class="popup-image__comments-like-counter">10</p>
+            <button class="popup-image__comments-pin"></button>
+          </div>
+          <div class="popup-image__comments">
+            <div class="popup-image__comment">
+              <img class="popup-image__comment-avatar" src="./img/avatar.svg" alt="аватар">
+              <button class="popup-image__comment-sendOn"></button>
+              <p class="popup-image__comment-date">12:30</p>
+              <p class="popup-image__comment-name">Джонни Сильверхенд</p>
+              <p class="popup-image__comment-text">В частности, высокотехнологичная концепция общественного </p>
+            </div>
+            <div class="popup-image__comment">
+              <img class="popup-image__comment-avatar" src="./img/avatar.svg" alt="аватар">
+              <button class="popup-image__comment-sendOn"></button>
+              <p class="popup-image__comment-date">12:30</p>
+              <p class="popup-image__comment-name">Джонни Сильверхенд</p>
+              <p class="popup-image__comment-text">В частности, высокотехнологичная концепция общественного. Можно
+                запихать много текста.
+                Каждый из нас понимает очевидную вещь: постоянный количественный рост.</p>
+            </div>
+          </div>
+          <form class="popup-image__comment-form">
+            <div class="popup-image__comment-form-top">
+              <img class="popup-image__comments-form-image" src="./img/avatar.svg" alt="аватар пользователя">
+              <input class="popup-image__comment-form-input" type="text" placeholder="написать сообщение">
+            </div>
+            <div class="popup-image__comment-form-buttons">
+              <button class="popup-image__comment-form-button popup-image__comment-form-button--upload"></button>
+              <button class="popup-image__comment-form-button popup-image__comment-form-button--smile"></button>
+              <button class="popup-image__comment-form-button popup-image__comment-form-button--reset"></button>
+              <button class="popup-image__comment-form-button popup-image__comment-form-button--send"
+                type="submit"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </body>
 <script src="./index.js"></script>
 
