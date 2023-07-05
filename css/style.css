@@ -1058,6 +1058,7 @@
   position: relative;
   padding: 30px 10px;
   background-color: rgb(255, 255, 255, 0.6);
+  margin: 0 0 5px 0;
 }
 
 .popup-image {
@@ -1296,4 +1297,86 @@
 }
 .popup-image__comment-form-button--send {
   background: url("../img/message-icons/send.svg") center / contain no-repeat;
+}
+
+.chat {
+  padding: 5px 25px 70px 25px;
+  background-color: rgb(255, 255, 255, 0.6);
+  margin: 0 0 10px 0;
+}
+.chat__header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 15px 0;
+}
+.chat__image {
+  width: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chat__header-text {
+}
+.chat__header-name {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.chat__header-sign {
+  color: #858585;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+}
+.chat__body {
+}
+.chat__item {
+  background-color: #d9d9d9;
+  padding: 8px 10px 5px 20px;
+  max-width: 600px;
+}
+
+.chat__item--left {
+  margin: 5px auto 5px 0;
+  border-radius: 10px 10px 10px 0;
+}
+
+.chat__item--right {
+  margin: 5px 0 5px auto;
+  border-radius: 10px 10px 0 10px;
+}
+
+.chat__item-text {
+  margin: 0 0 5px 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+.chat__item-date {
+  color: #858585;
+  font-size: 10px;
+  font-weight: 300;
+}
+.chat__item-button {
+  color: #858585;
+  font-size: 10px;
+  font-weight: 300;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.chat__item-ref {
+  padding: 0 0 0 7px;
+  margin: 0 0 5px 8px;
+  border-left: 2px solid #00afb5;
+}
+.chat__item-ref-name {
+  color: #00afb5;
+  font-size: 15px;
+  margin: 0;
+}
+.chat__item-ref-text {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
 }
