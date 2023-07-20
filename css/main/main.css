@@ -6,14 +6,10 @@
   grid-row-gap: 0px;
 }
 
-.main section {
-  border: 1px solid #fff;
-}
-
 .main__avatar-section {
   grid-area: 1 / 1 / 2 / 2;
 }
-.div2 {
+.main__user-info {
   grid-area: 1 / 2 / 2 / 3;
 }
 .div3 {

@@ -1,0 +1,66 @@
+.user-info {
+  position: relative;
+  padding: 33px 15px 15px 15px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.user-info:before,
+.user-info:after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.user-info:before {
+  box-shadow: -7px 0 20px -15px inset;
+  left: -15px;
+}
+
+.user-info:after {
+  box-shadow: 7px 0 20px -15px inset;
+  right: -15px;
+}
+
+.user-info-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.user-info__interactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info__interactions-button {
+  border: none;
+  color: #424242;
+  font-size: 15px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  min-width: 120px;
+  padding: 15px 10px;
+}
+
+.user-info__interactions-button:hover {
+  box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.user-info__counters {
+  display: flex;
+  gap: 16px;
+}
+
+.user-info__counter {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
