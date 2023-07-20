@@ -1,0 +1,13 @@
+.avatar-section {
+  padding: 33px 0 23px 0;
+  backdrop-filter: blur(5px);
+}
+.avatar-section__img {
+  max-width: 200px;
+  margin: 0 auto 15px auto;
+}
+.avatar-section__text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}

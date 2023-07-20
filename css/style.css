@@ -2,3 +2,8 @@
 @import url("../fonts/fonts.css");
 @import url("./root.css");
 @import url("./page.css");
+@import url("./general/general.css");
+@import url("./page__background.css");
+@import url("./header/header.css");
+@import url("./main/main.css");
+@import url("./main/avatar-section.css");

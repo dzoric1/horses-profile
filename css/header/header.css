@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  padding: 3px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+}
+
+.header__logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.header__search {
+  max-width: 335px;
+  height: 30px;
+}
+
+.header__avatar {
+  max-width: 55px;
+}
