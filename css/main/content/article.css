@@ -1,0 +1,49 @@
+.article {
+  padding: 0 15px;
+}
+.article__cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background: url("../../../img/background.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.article__cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.article__cover-title {
+  max-width: 200px;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.article__image {
+  width: 100%;
+  object-fit: contain;
+  max-height: 150px;
+}
+
+.article__text {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 15px 0;
+  text-align: justify;
+}
+
+.article__summary {
+  margin: 0 0 20px 0;
+}

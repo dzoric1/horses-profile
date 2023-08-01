@@ -1,0 +1,140 @@
+.chat {
+  padding: 5px 0 0 0;
+}
+
+.chat__header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 20px 0;
+}
+
+.chat__header-image {
+  max-width: 68px;
+}
+
+.chat__header-name {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.chat__header-sign {
+  color: #858585;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.chat__body {
+}
+
+.chat__item {
+  background-color: #eee;
+  padding: 8px 10px 5px 20px;
+  max-width: 600px;
+  position: relative;
+}
+
+.chat__item--left {
+  margin: 10px auto 10px 0;
+  border-radius: 10px 10px 10px 0;
+}
+
+.chat__item--right {
+  margin: 10px 0 10px auto;
+  border-radius: 10px 10px 0 10px;
+}
+
+.chat__item--width-avatar {
+  padding: 8px 10px 5px 55px;
+}
+
+.chat__item-text {
+  margin: 0 0 5px 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.chat__item-date {
+  color: #858585;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.chat__item-button {
+  color: #858585;
+  font-size: 10px;
+  font-weight: 300;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.chat__item-ref {
+  padding: 0 0 0 7px;
+  margin: 0 0 5px 8px;
+  border-left: 2px solid #00afb5;
+}
+
+.chat__item-ref-name {
+  color: #00afb5;
+  font-size: 15px;
+}
+
+.chat__item-ref-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.chat__item-name {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+
+.chat__item-image {
+  max-width: 55px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.message-form {
+  background-color: #eee;
+  display: flex;
+  padding: 15px 40px;
+  gap: 20px;
+  margin: 0 -15px -20px -15px;
+}
+
+.message-form__input {
+  position: relative;
+  border-radius: 8px;
+}
+
+.message-form__button {
+  align-self: center;
+  width: 18px;
+  height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.message-form__button--download {
+  background: url("../../img/message-icons/deploy.svg") center / contain no-repeat;
+}
+
+.message-form__button--send {
+  background: url("../../img/message-icons/send.svg") center / contain no-repeat;
+}
+
+.message-form__button--photo {
+  background: url("../../img/message-icons/photo.svg") center / contain no-repeat;
+  position: absolute;
+  right: 155px;
+}
+
+.message-form__button--smile {
+  background: url("../../img/message-icons/smile.svg") center / contain no-repeat;
+  position: absolute;
+  right: 115px;
+}

@@ -14,3 +14,14 @@
   object-fit: cover;
   border: 2px solid #fff;
 }
+
+.plus-btn {
+  background: linear-gradient(#000, #000), linear-gradient(#000, #000);
+  background-position: center;
+  background-size: 100% 2px, 2px 100%;
+  background-repeat: no-repeat;
+}
+
+.arrow-btn {
+  background: url("../../img/arrow-back.svg") center / contain no-repeat;
+}

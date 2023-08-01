@@ -11,3 +11,9 @@
 @import url("./main/three-blocks.css");
 @import url("./main/aside-chat.css");
 @import url("./main/navigation.css");
+@import url("./main/content/content.css");
+@import url("./main/content/content__item.css");
+@import url("./main/content/articles-table.css");
+@import url("./main/content/article.css");
+@import url("./general/summary.css");
+@import url("./main/chat.css");

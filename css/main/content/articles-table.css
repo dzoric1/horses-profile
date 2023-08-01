@@ -1,0 +1,24 @@
+.articles-table {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-collapse: collapse;
+  font-size: 9px;
+  font-weight: 300;
+}
+
+.articles-table thead th {
+  padding: 10px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.articles-table tbody td {
+  padding: 10px;
+  word-wrap: normal;
+}
+
+.articles-table tr {
+  color: #000;
+  border: 1px solid #000;
+}

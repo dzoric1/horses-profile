@@ -1,0 +1,44 @@
+.summary__buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.summary__button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin: 0 0 15px 0;
+}
+
+.summary__button--like {
+  background: url("../../img/message-icons/like.svg") center / contain no-repeat;
+}
+
+.summary__button--message {
+  background: url("../../img/message-icons/message.svg") center / contain no-repeat;
+}
+.summary__button--flag {
+  background: url("../../img/message-icons/pin.svg") center / contain no-repeat;
+  margin-left: auto;
+}
+
+.summary__count-text {
+  color: #424242;
+  font-size: 11px;
+  font-weight: 300;
+  margin: 0 0 5px 0;
+}
+
+.summary__description-text {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0 0 5px 0;
+}
+
+.summary__description-date {
+  color: #424242;
+  font-size: 10px;
+  font-weight: 300;
+}
