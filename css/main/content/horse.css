@@ -1,0 +1,107 @@
+.horse__data {
+  display: flex;
+  gap: 13px;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.horse__data-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background-color: rgba(117, 117, 117, 0.6);
+  padding: 8px 23px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 130px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.horse__data-img {
+  width: 100%;
+  max-width: 270px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.horse__data-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.horse__data-text-item {
+  color: #000;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 300;
+  margin: 0;
+}
+.horse__data-text-item--name {
+  text-align: center;
+}
+
+.horse__description {
+  margin: 0 0 20px 0;
+}
+
+.horse__description-title {
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+.horse__description-text {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.horse__media {
+  margin: 0 0 20px 0;
+}
+
+.horse__media-title {
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+
+.horse__media-grid {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+}
+
+.horse__media-grid-image {
+  object-fit: cover;
+  width: 100%;
+  min-height: 158px;
+}
+
+.horse__career-title {
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+
+.horse__career-table {
+  text-align: left;
+  padding: 0;
+  font-size: 9.126px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 130%;
+  width: 100%;
+  color: #000;
+  border-collapse: collapse;
+}
+
+.horse__career-table thead th {
+  padding: 5px 10px;
+}
+
+.horse__career-table tbody td {
+  padding: 5px 10px;
+}

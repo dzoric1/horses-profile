@@ -25,3 +25,7 @@
 .arrow-btn {
   background: url("../../img/arrow-back.svg") center / contain no-repeat;
 }
+
+.settings-btn {
+  background: url("../../img/horse-setting-icon.svg") center / contain no-repeat;
+}
