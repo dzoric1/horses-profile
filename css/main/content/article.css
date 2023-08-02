@@ -37,6 +37,13 @@
   max-height: 150px;
 }
 
+.article__image-big {
+  width: 100%;
+  object-fit: cover;
+  max-height: 350px;
+  margin: 0 0 20px 0;
+}
+
 .article__text {
   font-size: 15px;
   font-weight: 300;
