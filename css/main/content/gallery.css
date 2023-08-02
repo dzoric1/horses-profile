@@ -1,0 +1,15 @@
+.gallery__media-grid {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+}
+
+.gallery__media-grid-image {
+  object-fit: cover;
+  width: 100%;
+  min-height: 158px;
+}

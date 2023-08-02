@@ -1,0 +1,205 @@
+.popup-image {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 3;
+}
+
+.popup-image--show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-image__container {
+  background-color: #fff;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 19px;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.popup-image__container-wrapper {
+  position: relative;
+}
+
+.popup-image__image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.popup-image__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  transform: translate(42px, -42px) rotate(45deg);
+  background: linear-gradient(#000, #000), linear-gradient(#000, #000), transparent;
+  background-position: center;
+  background-size: 100% 4px, 4px 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.popup-image__comments-block {
+  max-width: 350px;
+  min-height: 541px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-image__comments-header {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 15px;
+}
+
+.popup-image__comments-header-image {
+  max-width: 38px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.popup-image__comments-header-name {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.popup-image__comments-header-date {
+  color: #858585;
+  font-size: 10px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.popup-image__comments-buttons {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 15px;
+}
+
+.popup-image__comments-like {
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background: url("../img/message-icons/like.svg") center / contain no-repeat;
+}
+.popup-image__comments-like-counter {
+  font-size: 15px;
+  margin: 0 auto 0 0;
+}
+.popup-image__comments-pin {
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background: url("../img/message-icons/pin.svg") center / contain no-repeat;
+}
+
+.popup-image__summary {
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: 300;
+  border-bottom: 1px solid #424242;
+}
+
+.popup-image__comments {
+  padding: 15px 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  max-height: 440px;
+  overflow: hidden;
+}
+
+.chat__item--popup {
+  background-color: #fff;
+}
+
+.popup-image__comment-form {
+  background-color: #f9f9f9;
+  /* transform: translateY(42px); */
+  transition: transform 0.3s ease;
+}
+
+.popup-image__comment-form-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+}
+
+.popup-image__comments-form-image {
+  max-width: 38px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.popup-image__comment-form-input {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  width: 100%;
+}
+
+.popup-image__comment-form-input:focus {
+  outline: none;
+}
+
+.popup-image__comment-form-input:placeholder {
+  color: #858585;
+  font-size: 15px;
+}
+
+.popup-image__comment-form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 10px 15px;
+  background-color: #eee;
+  gap: 30px;
+}
+
+.popup-image__comment-form-button {
+  border: none;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+.popup-image__comment-form-button--upload {
+  background: url("../img/message-icons/deploy.svg") center / contain no-repeat;
+}
+.popup-image__comment-form-button--smile {
+  background: url("../img/message-icons/smile.svg") center / contain no-repeat;
+  margin: 0 auto 0 0;
+}
+.popup-image__comment-form-button--reset {
+  background: url("../img/send-on.svg") center / contain no-repeat;
+}
+.popup-image__comment-form-button--send {
+  background: url("../img/message-icons/send.svg") center / contain no-repeat;
+}
